@@ -1,0 +1,6 @@
+GET http://localhost:8000/block/0
+
+
+POST http://localhost:8000/requestValidation
+
+POST http://localhost:8000/blocks/AAAA
