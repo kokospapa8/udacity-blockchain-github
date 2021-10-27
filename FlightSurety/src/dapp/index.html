@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlightSurety</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">FlightSurety</a>
+
+        <span style="color: #ABADA7;">Buy flight insurance and collect payouts</span>
+
+    </nav>
+
+
+    <main class="container">
+        <h1>Selected: "First Airlines"</h1>
+          <div id="display-wrapper" class="top-20">
+          </div>
+          <div class="row top-20">
+              <label class="form">Select a flight:</label>
+              <select id="flight-number">
+                  <option value="AVBSDSSDS" selected="selected">AVBSDSSDS</option>
+                  <option value="ASDVASDQ1">ASDVASDQ1</option>
+                  <option value="ASVDWDWQQ">ASVDWDWQQ</option>
+              </select>
+          </div>
+          <hr />
+          <hr />
+          <div class="row top-20">
+              <label class="form">Fetch flight status from oracles:</label>
+              <btn class="btn btn-primary" id="submit-oracle">Query Oracles</btn>
+          </div>
+          <div class="row top-20">
+              <label class="form">Buy insurance for selected flight:</label>
+              <input type="text" id="insurance-value" style="margin:0; width:100px" value="0.5">&nbsp;&nbsp;ETH
+              <btn class="btn btn-primary" id="buy-insurance">Buy Insurance</btn>
+          </div>
+          <div class="row top-20">
+              <label class="form">Withdraw credits:</label>
+              <btn class="btn btn-primary" id="withdraw-credits">Withdraw Credits</btn>
+          </div>
+          <div id="results-wrapper" class="top-20">
+          </div>
+          <div class="row top-20">
+          </div>
+      </main>
+
+</body>
+
+</html>
