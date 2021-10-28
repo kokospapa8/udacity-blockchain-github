@@ -11,6 +11,15 @@ install modules
 npm install
 ```
 
+## test
+
+How to run the tests:
+
+```
+truffle test
+
+```
+
 ## Zokrates
 
 ```# Udacity Blockchain Capstone
@@ -23,23 +32,37 @@ The capstone will build upon the knowledge you have gained in the course in orde
 install modules
 
 ```
+
 npm install
+
 ```
 
 ## Zokrates
 
 ```
+
 docker run -v /Users/jinwookbaek/Project/blockchain/Blockchain-Capstone/zokrates/code:/home/zokrates/code -ti zokrates/zokrates /bin/bash
+
 # compile
+
 zokrates compile -i square.code
+
 # perform the setup phase
+
 zokrates setup
+
 # execute the program
+
 zokrates compute-witness -a 3 9 // Here we usually use a root and its square
+
 # generate a proof of computation
+
 zokrates generate-proof
+
 # export a solidity verifier
+
 zokrates export-verifier
+
 ```
 
 ## Deploying Rinkeby
